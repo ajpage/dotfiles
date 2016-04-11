@@ -19,6 +19,7 @@ Then follow these instructions:
 ```bash
 git clone git@github.com:q-centrix/dotfiles.git ~/.dotfiles
 gem install rake
+cd ~/.dotfiles
 rake dotfiles:bootstrap
 ```
 
