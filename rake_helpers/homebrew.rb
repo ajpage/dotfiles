@@ -42,7 +42,6 @@ class Homebrew
         memcached
         phantomjs
         postgresql
-        qt
         vim
       )
 
