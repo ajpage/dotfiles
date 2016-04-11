@@ -14,11 +14,10 @@ at [Q-Centrix](http://q-centrix.com) on OS X machines.
 Fork this repo, [by following these
 instructions](https://help.github.com/articles/fork-a-repo).
 
-Then follow these instructions replacing ``<<YOUR NAME`` with your Github
-username.
+Then follow these instructions:
 
 ```bash
-git clone git@github.com:<<YOUR NAME>>/dotfiles.git ~/.dotfiles
+git clone git@github.com:q-centrix/dotfiles.git ~/.dotfiles
 gem install rake
 rake dotfiles:bootstrap
 ```
