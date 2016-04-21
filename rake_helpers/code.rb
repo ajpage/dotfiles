@@ -5,7 +5,7 @@ class Code
 
       setup_git_directories
 
-      Output.system_with_linebreak 'git clone https://github.com/currica/web.git'
+      Output.system_with_linebreak 'git clone https://github.com/q-centrix/web.git'
     end
 
     def install_gems
