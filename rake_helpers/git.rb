@@ -12,7 +12,7 @@ class Git
     alias_method :pull_master, :pull_from_origin_master
 
     def pull_and_rebase_from_upstream
-      `git remote add upstream https://github.com/currica/dotfiles.git`
+      `git remote add upstream https://github.com/q-centrix/dotfiles.git`
       `git fetch upstream --prune`
       `git checkout master && git merge upstream/master`
     end
